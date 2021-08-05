@@ -84,9 +84,17 @@ body{
 }
 
 .perrito {
-  
+  height: 600px;
   background-size: cover;
-  background-image:url(/Imagen/dog-sleeping-in-bed-with-book.png) ;
+  background-image: url('./Imagen/dog-sleeping-in-bed-with-book.pngs');
+ 
+}
+
+.textoapp{
+  font-family: 'Nunito';
+    font-weight: 600;
+    margin: 1px;
+    padding: 1px;
 }
 
  

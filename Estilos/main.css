@@ -1,0 +1,541 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Nunito", sans-serif;
+  color: darkorange;
+}
+
+.c-card {
+  display: block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://res.cloudinary.com/djxsdli7f/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1627951751/Recurso_22_qrfqkn.png);
+  background-size: no repeat;
+  font-family: "Amaranth", sans-serif;
+  text-align: left;
+  background-color: #edf3f8;
+}
+
+.card-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.c-card {
+  display: inline-block;
+  width: 100%;
+  max-width: 350px;
+  margin: 20px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  text-align: left;
+  background: #fff;
+  -webkit-box-shadow: 0 6px 10px -5px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 6px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+.hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+  -webkit-box-shadow: 0 20px 20px -15px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 20px 20px -15px rgba(0, 0, 0, 0.3);
+}
+
+.body {
+  padding: 20px;
+}
+
+.title {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  font-size: 13px;
+  margin-top: 5px;
+  padding: 0;
+}
+
+.intro {
+  margin-bottom: 0;
+}
+
+.footer {
+  padding: 20px;
+  border-top: 1px solid #ddd;
+}
+
+.c-card--wide {
+  max-width: 740px;
+}
+
+.perrito {
+  background-size: cover;
+  background-image: url(/Imagen/dog-sleeping-in-bed-with-book.png);
+}
+
+button {
+  background-color: darkorange;
+  border-radius: 20px;
+  border-color: darkorange;
+  color: white;
+  font-family: 'Nunito';
+  font-weight: 600;
+  margin: 6px;
+  padding: 6px;
+}
+
+a, p {
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 700;
+  color: darkorange;
+  font-size: 20px;
+}
+
+li {
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.header-sitio {
+  padding: 16px 0;
+}
+
+.header-sitio .navbar-nav {
+  margin-left: auto !important;
+}
+
+.header-sitio .navbar-light .navbar-nav .nav-link:hover {
+  color: darkorange;
+}
+
+.header-sitio .bg-light {
+  background-color: transparent !important;
+}
+
+.header-sitio .header-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: right;
+      -ms-flex-align: right;
+          align-items: right;
+  position: relative;
+}
+
+.header-sitio .header-container .menu-abrir, .header-sitio .header-container .menu-cerrar {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .header-sitio .header-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.header-sitio .header-container h1 {
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .header-sitio .header-container h1 {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 552px) {
+  .header-sitio .header-container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .header-sitio .header-container h1 {
+    -ms-flex-preferred-size: 70%;
+        flex-basis: 70%;
+    margin-bottom: 0;
+  }
+}
+
+footer {
+  color: darkorange;
+}
+
+footer p {
+  text-align: center;
+  padding: 12px 0;
+  font-size: 12px;
+}
+
+footer i {
+  font-size: 26px;
+}
+
+footer .footer-content {
+  padding: 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media (max-width: 992px) {
+  footer .footer-content {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+}
+
+@media (max-width: 552px) {
+  footer .footer-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer .footer-content .footer-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  footer .footer-content .footer-info li:first-of-type {
+    margin-right: px;
+  }
+}
+
+footer .footer-content .footer-info {
+  font-size: 14px;
+}
+
+footer .footer-content .footer-info li:first-of-type {
+  margin-bottom: 10px;
+}
+
+footer .footer-content .footer-redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .footer-content .footer-redes li:first-of-type {
+  margin-right: 20px;
+}
+
+footer .footer-content .footer-redes li:last-of-type {
+  margin-left: 20px;
+}
+
+footer .footer-content .footer-redes li i {
+  cursor: pointer;
+}
+
+#container {
+  margin: 1%;
+  padding: 0%;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#banner {
+  height: 600px;
+  width: 100%;
+  background-position: left;
+  background-size: cover;
+}
+
+.card {
+  border: none !important;
+}
+
+.card .card-body {
+  -webkit-box-shadow: 0 1px 2px 0 #776767,0 1px 20px 0 #776767 !important;
+          box-shadow: 0 1px 2px 0 #776767,0 1px 20px 0 #776767 !important;
+}
+
+.card .card-text:last-child {
+  margin-bottom: 0;
+  font-family: 'Montserrat';
+  color: #000;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.card *, .card ::after, .card ::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.card * {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.card user agent stylesheet
+div {
+  display: block;
+}
+
+.card .py-3 {
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+  margin-top: 1rem;
+}
+
+.card .px-4 {
+  padding-right: 1.5rem !important;
+  padding-left: 1.5rem !important;
+}
+
+.card .btn-outline-light {
+  color: #ffc107;
+  border-color: #ffc107;
+}
+
+.card .btn {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  color: none;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+      user-select: none;
+  background-color: #FFFFFF;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  border-radius: .25rem;
+  -webkit-transition: color .15s ease-in-out,background-color  .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color  .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color  .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color  .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+}
+
+.card a {
+  text-decoration: none;
+  font-weight: 700;
+  color: darkorange;
+  font-size: 20px;
+}
+
+.card a, .card p {
+  font-family: "Montserrat", sans-serif;
+}
+
+.card *, .card ::after, .card ::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.card * {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.card user agent stylesheet
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#banner1 {
+  height: 400px;
+  width: 100%;
+  background-position: left;
+  background-size: cover;
+}
+
+.card1 {
+  border: none !important;
+}
+
+.card1 .card-body1 {
+  background-color: #FFFFFF;
+  padding: 1rem;
+  -webkit-box-shadow: 0 1px 2px 0 #776767,0 1px 20px 0 #776767 !important;
+          box-shadow: 0 1px 2px 0 #776767,0 1px 20px 0 #776767 !important;
+}
+
+.card1 .card-text:last-child {
+  margin-bottom: 0;
+  font-family: 'Montserrat';
+  color: #000;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.card1 *, .card1 ::after, .card1 ::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.card1 * {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.card1 user agent stylesheet
+div {
+  display: block;
+}
+
+.card1 .py-3 {
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+  margin-top: 1rem;
+}
+
+.card1 .px-4 {
+  padding-right: 1.5rem !important;
+  padding-left: 1.5rem !important;
+}
+
+.card1 .btn-outline-light {
+  color: #ffc107;
+  border-color: #ffc107;
+}
+
+.card1 .btn {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  color: none;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+      user-select: none;
+  background-color: #FFFFFF;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  border-radius: .25rem;
+  -webkit-transition: color .15s ease-in-out,background-color  .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color  .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color  .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color  .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+}
+
+.card1 a {
+  text-decoration: none;
+  font-weight: 700;
+  color: darkorange;
+  font-size: 20px;
+}
+
+.card1 a, .card1 p {
+  font-family: "Montserrat", sans-serif;
+}
+
+.card1 *, .card1 ::after, .card1 ::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.card1 * {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.card1 user agent stylesheet
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.bg-gradient-primary-to-secondary {
+  background: linear-gradient(45deg, darkorange, #e9aa6f) !important;
+}
+
+#container1 {
+  margin: 1%;
+  padding: 0%;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#banner2 {
+  height: 400px;
+  width: 100%;
+  background-position: left;
+  background-size: cover;
+}
+/*# sourceMappingURL=main.css.map */

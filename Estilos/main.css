@@ -82,32 +82,31 @@ body {
   max-width: 740px;
 }
 
+img:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+  /* For IE8 and earlier */
+}
+
 .perrito {
-  height: 600px;
+  background-image: url(../Imagen/dog-sleeping-in-bed-with-book.png);
   background-size: cover;
-  background-image: url("./Imagen/dog-sleeping-in-bed-with-book.pngs");
+  height: 600px;
 }
 
-.textoapp {
-  font-family: 'Nunito';
-  font-weight: 600;
-  margin: 1px;
-  padding: 1px;
-}
-
-button {
-  background-color: darkorange;
-  border-radius: 20px;
-  border-color: darkorange;
-  color: white;
-  font-family: 'Nunito';
-  font-weight: 600;
-  margin: 6px;
-  padding: 6px;
-}
-
-a, p {
-  font-family: "Montserrat", sans-serif;
+.px-5 {
+  margin-top: 7rem;
+  display: -ms-grid;
+  display: grid;
+  padding-right: 3rem !important;
+  padding-left: 3rem !important;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
 a {
@@ -347,11 +346,6 @@ div {
   padding-left: 1.5rem !important;
 }
 
-.card .btn-outline-light {
-  color: #ffc107;
-  border-color: #ffc107;
-}
-
 .card .btn {
   display: inline-block;
   font-weight: 400;
@@ -365,7 +359,7 @@ div {
   -moz-user-select: none;
   -ms-user-select: none;
       user-select: none;
-  background-color: #FFFFFF;
+  background-color: #faeade;
   border: 1px solid transparent;
   padding: .375rem .75rem;
   font-size: 1rem;
@@ -379,7 +373,7 @@ div {
 .card a {
   text-decoration: none;
   font-weight: 700;
-  color: darkorange;
+  color: #9c5d46;
   font-size: 20px;
 }
 
@@ -460,11 +454,6 @@ div {
   padding-left: 1.5rem !important;
 }
 
-.card1 .btn-outline-light {
-  color: #ffc107;
-  border-color: #ffc107;
-}
-
 .card1 .btn {
   display: inline-block;
   font-weight: 400;
@@ -478,7 +467,7 @@ div {
   -moz-user-select: none;
   -ms-user-select: none;
       user-select: none;
-  background-color: #FFFFFF;
+  background-color: #faeade;
   border: 1px solid transparent;
   padding: .375rem .75rem;
   font-size: 1rem;
@@ -492,7 +481,7 @@ div {
 .card1 a {
   text-decoration: none;
   font-weight: 700;
-  color: darkorange;
+  color: #9c5d46;
   font-size: 20px;
 }
 
@@ -523,6 +512,18 @@ a:-webkit-any-link {
   background: linear-gradient(45deg, darkorange, #e9aa6f) !important;
 }
 
+.btn-primary.disabled, .btn-primary:disabled {
+  color: #fff;
+  background-color: darkorange !important;
+  border-color: darkorange !important;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #4fd290 !important;
+  border-color: #4fd290 !important;
+}
+
 #container1 {
   margin: 1%;
   padding: 0%;
@@ -545,5 +546,145 @@ a:-webkit-any-link {
   width: 100%;
   background-position: left;
   background-size: cover;
+}
+
+.textoapp {
+  color: darkorange;
+  margin-top: 12px;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 50px;
+  margin-top: 40px;
+  padding: 2px;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+  justify-items: start;
+}
+
+#container3 {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(../Imagen/5568233a9cdb4492199e000e8f0878486eb01227.jpg);
+  background-position: bottom;
+  background-size: cover;
+  background-color: #007B7D;
+  height: 350px;
+  padding: 0 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.flexsearch--wrapper {
+  height: auto;
+  width: 70%;
+  overflow: hidden;
+  background: transparent;
+  margin: 0;
+  position: static;
+}
+
+.flexsearch--form {
+  overflow: hidden;
+  position: relative;
+}
+
+.flexsearch--input-wrapper {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 66px 0 0;
+  overflow: hidden;
+  justify-content: center;
+}
+
+.flexsearch--input {
+  width: 100%;
+}
+
+.flexsearch {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flexsearch--input {
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 60px;
+  padding: 0 46px 0 10px;
+  border-color: darkorange;
+  border-radius: 35px;
+  /* (height/2) + border-width */
+  border-style: solid;
+  border-width: 2px;
+  margin-top: 150px;
+  color: #333;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.flexsearch--submit {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: block;
+  width: 60px;
+  height: 60px;
+  padding: 0;
+  border: none;
+  margin-top: 150px;
+  /* margin-top + border-width */
+  margin-right: 5px;
+  /* border-width */
+  background: transparent;
+  color: #4fd290;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+.flexsearch--input:focus {
+  outline: none;
+  border-color: #4fd290;
+}
+
+.flexsearch--input:focus.flexsearch--submit {
+  color: #333;
+}
+
+.flexsearch--submit:hover {
+  color: #333;
+  cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+  color: #888;
+}
+
+input:-moz-placeholder {
+  color: #888;
+}
+
+.h2 {
+  float: left;
+  margin: 40px;
+  color: #333;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+  line-height: 45px;
+  text-align: center;
 }
 /*# sourceMappingURL=main.css.map */

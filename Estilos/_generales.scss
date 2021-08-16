@@ -83,35 +83,32 @@ body{
   max-width: 740px;
 }
 
+
+img:hover {
+  opacity:1.0;
+  filter:alpha(opacity=100); /* For IE8 and earlier */
+ }
+
 .perrito {
-  height: 600px;
+  background-image: url(../Imagen/dog-sleeping-in-bed-with-book.png);
   background-size: cover;
-  background-image: url('./Imagen/dog-sleeping-in-bed-with-book.pngs');
- 
-}
-
-.textoapp{
-  font-family: 'Nunito';
-    font-weight: 600;
-    margin: 1px;
-    padding: 1px;
-}
+  height: 600px;
 
  
-button{
-    
-    background-color: darkorange;
-    border-radius: 20px;
-    border-color: darkorange;
-    color:white;
-    font-family: 'Nunito';
-    font-weight: 600;
-    margin: 6px;
-    padding: 6px;
-}
-a, p {
-    font-family: $texto;
-}
+  }
+  
+  .px-5 {
+    margin-top: 7rem;
+    display: grid;
+    padding-right: 3rem!important;
+    padding-left: 3rem!important;
+    flex-direction: column;
+    justify-content: flex-start;
+  } 
+ 
+
+ 
+
 
 a {
     text-decoration: none;

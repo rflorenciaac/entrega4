@@ -1,40 +1,43 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 // variables
 
-$titulo: 'Nunito', sans-serif;
-$texto: 'Montserrat', sans-serif;
+$titulo: "Nunito", sans-serif;
+$texto: "Montserrat", sans-serif;
 
-$colorPrincipal: darkorange; 
+$colorPrincipal: darkorange;
 
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: $titulo;
-    color: $colorPrincipal;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $titulo;
+  color: $colorPrincipal;
 }
 
 .c-card {
   display: block;
   box-sizing: border-box;
 }
-body{
-  background-image:url(https://res.cloudinary.com/djxsdli7f/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1627951751/Recurso_22_qrfqkn.png);
+body {
+  background-image: url(https://res.cloudinary.com/djxsdli7f/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1627951751/Recurso_22_qrfqkn.png);
   background-size: no repeat;
   font-family: "Amaranth", sans-serif;
   text-align: left;
   background-color: #edf3f8;
 }
 
-
-.card-container{
+.card-container {
   max-width: 900px;
   margin: 0 auto;
 }
-.c-card{
+.c-card {
   display: inline-block;
   width: 100%;
   max-width: 350px;
@@ -45,84 +48,72 @@ body{
   background: #fff;
   box-shadow: 0 6px 10px -5px rgba(0, 0, 0, 0.2);
 }
-.hover{
-    transform: translateY(-5px);
-    box-shadow: 0 20px 20px -15px rgba(0, 0, 0, 0.3);
-  }
+.hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 20px -15px rgba(0, 0, 0, 0.3);
+}
 
+.body {
+  padding: 20px;
+}
 
-  .body{
-    padding: 20px;
-  }
-  
-  .title{
-    font-size: 15px;
-    font-weight: 700;
-    line-height: 1.2;
-    margin: 0;
-    padding: 0;
-    text-transform: uppercase;
-  }
+.title {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
 
-  .subtitle{
-    font-size: 13px;
-    margin-top: 5px;
-    padding: 0;
-  }
+.subtitle {
+  font-size: 13px;
+  margin-top: 5px;
+  padding: 0;
+}
 
-  .intro{
-    margin-bottom: 0;
-  }
+.intro {
+  margin-bottom: 0;
+}
 
-  .footer{
-    padding: 20px;
-    border-top: 1px solid #ddd;
-  }
-
-.c-card--wide{
+.c-card--wide {
   max-width: 740px;
 }
 
-
 img:hover {
-  opacity:1.0;
-  filter:alpha(opacity=100); /* For IE8 and earlier */
- }
+  opacity: 1;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
+}
 
 .perrito {
   background-image: url(../Imagen/dog-sleeping-in-bed-with-book.png);
   background-size: cover;
   height: 600px;
+}
+.px-5 {
+  display: grid;
+  flex-direction: column;
+  margin-left: -2rem;
+}
 
- 
-  }
-  
-  .px-5 {
-    margin-top: 7rem;
-    display: grid;
-    padding-right: 3rem!important;
-    padding-left: 3rem!important;
-    flex-direction: column;
-    justify-content: flex-start;
-  } 
- 
-
- 
-
+#botonapp {
+  background-color: #4fd290;
+  color: #ffff;
+}
 
 a {
-    text-decoration: none;
-    font-weight: 700;
-    color: $colorPrincipal;
-    font-size: 20px;
+  text-decoration: none;
+  font-weight: 700;
+  color: $colorPrincipal;
+  font-size: 20px;
 }
 
 li {
-    list-style: none;
-    font-family: $texto;
+  list-style: none;
+  font-family: $texto;
 }
 
 .container {
-    max-width: 900px;
-    margin: 0 auto;
+  max-width: 900px;
+  margin: 0 auto;
 }

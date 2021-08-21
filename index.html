@@ -1,281 +1,656 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <!--SEO-->
     <!--Keywords-->
-    <meta name="keywords" content="Alojamiento gratuito, cuidado de mascotas, alojamientos, estadía">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@300;400;700&display=swap"
-        rel="stylesheet">
-    <script src="https://kit.fontawesome.com/df59baf6b8.js" crossorigin="anonymous"></script>
+    <meta
+      name="keywords"
+      content="Alojamiento gratuito, cuidado de mascotas, alojamientos, estadía"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/df59baf6b8.js"
+      crossorigin="anonymous"
+    ></script>
     <!--Titulo-->
     <title>IKIGAI-Cuidado De mascotas y Alojamiento gratuito</title>
     <!--Descripción-->
-    <meta name="description" content="Encontrá un cuidador para tu mascota
-    o una estadía gratuita cuidando casas y mascotas.">
-    <link rel="stylesheet" href="./Estilos/main.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-</head>
+    <meta
+      name="description"
+      content="Encontrá un cuidador para tu mascota
+    o una estadía gratuita cuidando casas y mascotas."
+    />
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./Estilos/main.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
 
-<body>
-
+  <body>
     <header class="header-sitio">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <a href="index.html"><img src="./Imagen/logo-04.png" alt=" " style="width: 9rem;"></a>
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="./Pages/contacto.html">Contacto</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./Pages/ayuda.html">Ayuda</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" style="cursor: pointer" data-bs-toggle="modal"
-                                data-bs-target="#InicioSesion">
-                                <span class="d-flex align-items-center">
-                                    <i class="bi-chat-text-fill me-2"></i>
-                                    Inicio Sesión
-                                </span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" style="color: darkorange; cursor: pointer" data-bs-toggle="modal"
-                                data-bs-target="#feedbackModal">
-                                <span class="d-flex align-items-center">
-                                    <i class="bi-chat-text-fill me-2"></i>
-                                    Registrarse
-                                </span>
-                            </a>
-                        </li>
-
-                    </ul>
-
-                </div>
-            </div>
-        </nav>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <a href="index.html"
+              ><img src="./Imagen/logo-04.png" alt=" " style="width: 9rem"
+            /></a>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                data-bs-whatever="@mdo">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Pages/ayuda.html">Ayuda</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  style="cursor: pointer"
+                  data-bs-toggle="modal"
+                  data-bs-target="#InicioSesion"
+                >
+                  <span class="d-flex align-items-center">
+                    <i class="bi-chat-text-fill me-2"></i>
+                    Iniciar Sesión
+                  </span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  style="color: darkorange; cursor: pointer"
+                  data-bs-toggle="modal"
+                  data-bs-target="#feedbackModal"
+                >
+                  <span class="d-flex align-items-center">
+                    <i class="bi-chat-text-fill me-2"></i>
+                    Registrarse
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
 
-
     <div id="container">
-        <div class="card" style="width: 35rem;">
-            <div class="card-body">
-                <h1 class="card-title">¡UN LUGAR PARA LOS AMANTES
-                    DE LAS MASCOTAS!</h5>
-                    <p class="card-text">Encontrá un cuidador
-                        para tu mascota o una
-                        estadía gratuita cuidando
-                        casas y mascotas. </p>
-                    <a href="#" class="btn btn-outline-light py-3 px-4 rounded-pill" target="_blank">Cuidadores</a>
-                    <a href="#" class="btn btn-outline-light py-3 px-4 rounded-pill" target="_blank">Anfitriones</a>
-            </div>
+      <div class="card" style="width: 35rem">
+        <div class="card-body">
+          <h1 class="card-title">
+            ¡UN LUGAR PARA LOS AMANTES DE LAS MASCOTAS!
+          </h1>
+          <p class="card-text">
+            Encontrá un cuidador para tu mascota o una estadía gratuita cuidando
+            casas y mascotas.
+          </p>
+          <a
+            href="#"
+            class="btn btn-outline-light py-3 px-4 rounded-pill"
+            target="_blank"
+            >Cuidadores</a
+          >
+          <a
+            href="#"
+            class="btn btn-outline-light py-3 px-4 rounded-pill"
+            target="_blank"
+            >Anfitriones</a
+          >
         </div>
-        <div class="banner">
-            <img id="banner" src="./Imagen/Frame1.svg" alt="">
-        </div>
+      </div>
+      <div class="banner">
+        <img id="banner" src="./Imagen/Frame1.svg" alt="" />
+      </div>
     </div>
 
     <div id="container1">
-        <div class="banner1">
-            <img id="banner1" src="./Imagen/Recurso 12.svg" alt="">
+      <div class="banner1">
+        <img id="banner1" src="./Imagen/Recurso 12.svg" alt="" />
+      </div>
+      <div class="card1" style="width: 35rem">
+        <div class="card-body1">
+          <h2 class="card-title">¿Necesitas cuidador para tu mascota?</h2>
+          <p class="card-text">
+            Lorem ipsum dolor sit amet consectetur adipiscing elit viverra
+            fringilla interdum platea magna malesuada mauris, pellentesque
+            torquent tellus risus ut ultrices dignissim mollis facilisis sed
+            aliquet vivamus.
+          </p>
+          <a
+            href="#"
+            class="btn btn-outline-light py-3 px-4 rounded-pill"
+            target="_blank"
+            >Encontrá Cuidadores</a
+          >
         </div>
-        <div class="card1" style="width: 35rem;">
-            <div class="card-body1">
-                <h2 class="card-title">¿Necesitas cuidador para tu mascota?</h2>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipiscing
-                    elit viverra fringilla interdum platea magna malesuada mauris,
-                    pellentesque torquent tellus risus ut ultrices dignissim mollis
-                    facilisis sed aliquet vivamus. </p>
-                <a href="#" class="btn btn-outline-light py-3 px-4 rounded-pill" target="_blank">Encontrá Cuidadores</a>
-
-            </div>
-        </div>
-
+      </div>
     </div>
 
     <div id="container">
-        <div class="card" style="width: 35rem;">
-            <div class="card-body">
-                <h2 class="card-title">¿Buscas un lugar para alojarte?</h2>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipiscing
-                    elit viverra fringilla interdum platea magna malesuada mauris,
-                    pellentesque torquent tellus risus ut ultrices dignissim mollis
-                    facilisis sed aliquet vivamus.</p>
-                <a href="#" class="btn btn-outline-light py-3 px-4 rounded-pill" target="_blank">Encontrá
-                    Anfitriones</a>
-            </div>
+      <div class="card" style="width: 35rem">
+        <div class="card-body">
+          <h2 class="card-title">¿Buscas un lugar para alojarte?</h2>
+          <p class="card-text">
+            Lorem ipsum dolor sit amet consectetur adipiscing elit viverra
+            fringilla interdum platea magna malesuada mauris, pellentesque
+            torquent tellus risus ut ultrices dignissim mollis facilisis sed
+            aliquet vivamus.
+          </p>
+          <a
+            href="#"
+            class="btn btn-outline-light py-3 px-4 rounded-pill"
+            target="_blank"
+            >Encontrá Anfitriones</a
+          >
         </div>
-        <div class="banner2">
-            <img id="banner2" src="./Imagen/Recurso 32.svg" alt="">
-        </div>
+      </div>
+      <div class="banner2">
+        <img id="banner2" src="./Imagen/Recurso 32.svg" alt="" />
+      </div>
     </div>
-
 
     <section class="perrito">
-        <div class="cta-content">
-            <div class="container px-5">
-                <h3 class="textoapp" id="final">
-                    Encontrá un cuidador <br />
-                    para tu mascota o una <br />
-                    estadía gratuita cuidando<br />
-                    casas y mascotas.
-                    <br />
-                </h3>
-                <a class="btn btn-outline-light py-3 px-4 rounded-pill" target="_blank">Descargar aplicación</a>
-                <div class="d-flex flex-column flex-lg-row align-items-center justify-content-right">
-                    <a class="me-lg-3 mb-4 mb-lg-0" href="#!"><img class="app-badge" src="./Imagen/pngegg.png"
-                            alt="..."></a>
-
-                </div>
-            </div>
+      <div class="cta-content">
+        <div class="container px-5">
+          <h3 class="textoapp" id="final">
+            Encontrá un cuidador <br />
+            para tu mascota o una <br />
+            estadía gratuita cuidando<br />
+            casas y mascotas.
+            <br />
+          </h3>
+          <a id="botonapp"
+            class="btn btn-outline-light py-3 px-4 rounded-pill"
+            target="_blank" 
+            >Descargar aplicación</a>
+          <div
+            class="
+              d-flex
+              flex-column flex-lg-row
+              align-items-center
+              justify-content-right
+            "
+          >
+            <a class="me-lg-3 mb-4 mb-lg-0" href="#!"
+              ><img class="app-badge" src="./Imagen/pngegg.png" alt="..."
+            /></a>
+          </div>
         </div>
+      </div>
     </section>
 
-
     <footer>
-        <div class="container footer-content">
-            <ul class="footer-info">
-                <li>9 de Julio 1000</li>
-                <li>+54 9 222 666 5555</li>
-            </ul>
-            <ul class="footer-redes">
-                <li><i class="fab fa-facebook-f"></i></li>
-                <li><i class="fab fa-twitter"></i></li>
-                <li><i class="fab fa-instagram"></i></li>
-            </ul>
-        </div>
-        <p>Copyright - 2021</p>
-    </footer>
-
-    <!-- Feedback Modal-->
-    <div class="modal fade" id="feedbackModal" tabindex="-1" aria-labelledby="feedbackModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header bg-gradient-primary-to-secondary p-4">
-                    <h5 class="modal-title font-alt text-white" id="feedbackModalLabel">Registrarse</h5>
-                    <button class="btn-close btn-close-white" type="button" data-bs-dismiss="modal"
-                        aria-label="Close"></button>
-                </div>
-                <div class="modal-body border-0 p-4">
-
-                    <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                        <!-- Nombre input-->
-                        <div class="form-floating mb-3">
-                            <input class="form-control" id="name" type="text" placeholder="Enter your name..."
-                                data-sb-validations="required" />
-                            <label for="name">Nombre Completo</label>
-                            <div class="invalid-feedback" data-sb-feedback="name:required">El nombre es requerido</div>
-                        </div>
-                        <!-- Email input-->
-                        <div class="form-floating mb-3">
-                            <input class="form-control" id="email" type="email" placeholder="name@example.com"
-                                data-sb-validations="required" />
-                            <label for="email">Email </label>
-                            <div class="invalid-feedback" data-sb-feedback="email:required">El email es requerido</div>
-                            <div class="invalid-feedback" data-sb-feedback="email:email">Email no es valido.</div>
-                        </div>
-                        <!-- Phone number input-->
-                        <div class="form-floating mb-3">
-                            <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890"
-                                data-sb-validations="required" />
-                            <label for="phone">Número</label>
-                            <div class="invalid-feedback" data-sb-feedback="phone:required">El número de teléfono es
-                                requerido.</div>
-                        </div>
-                        <!-- Message input-->
-
-                        <!-- Submit success message-->
-
-                        <div class="d-none" id="submitSuccessMessage">
-                            <div class="text-center mb-3">
-                                <div class="fw-bolder">¡El registro fue exitoso!</div>
-
-
+        <footer id="dk-footer" class="dk-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-4">
+                            <div class="dk-footer-box-info">
+                                <a href="index.html" class="footer-logo">
+                                    <img src="Imagen/logo-04.png" alt="footer_logo" class="img-fluid">
+                                </a>
+                                <p class="footer-info-text">
+                                   Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.
+                                </p>
+                                <div class="footer-social-link">
+                                    <h3>Seguinos en nuestras redes</h3>
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-google-plus"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-linkedin"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- End Social link -->
+                            </div>
+                            <!-- End Footer info -->
+                            <div class="footer-awarad">
+                                <img src="images/icon/best.png" alt="">
+                                
                             </div>
                         </div>
-                        <!-- Submit error message-->
-
-                        <div class="d-none" id="submitErrorMessage">
-                            <div class="text-center text-danger mb-3">¡Error al registrarse!</div>
+                        <!-- End Col -->
+                        <div class="col-md-12 col-lg-8">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="contact-us">
+                                        <div class="contact-icon">
+                                            <i class="fa fa-map-o" aria-hidden="true"></i>
+                                        </div>
+                                        <!-- End contact Icon -->
+                                        <div class="contact-info">
+                                            <h3>Santiago del Estero, Argentina</h3>
+                                            <p>1234 Av. Belgrano</p>
+                                        </div>
+                                        <!-- End Contact Info -->
+                                    </div>
+                                    <!-- End Contact Us -->
+                                </div>
+                                <!-- End Col -->
+                                <div class="col-md-6">
+                                    <div class="contact-us contact-us-last">
+                                        <div class="contact-icon">
+                                            <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+                                        </div>
+                                        <!-- End contact Icon -->
+                                        <div class="contact-info">
+                                            <h3>+54 385 5647429</h3>
+                                            <p>Contactanos</p>
+                                        </div>
+                                        <!-- End Contact Info -->
+                                    </div>
+                                    <!-- End Contact Us -->
+                                </div>
+                                <!-- End Col -->
+                            </div>
+                            <!-- End Contact Row -->
+                            <div class="row">
+                                <div class="col-md-12 col-lg-6">
+                                    <div class="footer-widget footer-left-widget">
+                                        <div class="section-heading">
+                                            <h3>Useful Links</h3>
+                                            <span class="animate-border border-black"></span>
+                                        </div>
+                                        <ul>
+                                            <li>
+                                                <a href="#">Nosotros</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Services</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Projectos</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Equipo</a>
+                                            </li>
+                                        </ul>
+                                        <ul>
+                                            <li>
+                                                <a href="#">Contactanos</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Blog</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Testimonios</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Faq</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!-- End Footer Widget -->
+                                </div>
+                                <!-- End col -->
+                                <div class="col-md-12 col-lg-6">
+                                    <div class="footer-widget">
+                                        <div class="section-heading">
+                                            <h3>Subscribete</h3>
+                                            <span class="animate-border border-black"></span>
+                                        </div>
+                                        <p><!-- Don’t miss to subscribe to our new feeds, kindly fill the form below. -->
+                                        Reference site about Lorem Ipsum, giving information on its origins, as well.</p>
+                                        <form action="#">
+                                            <div class="form-row">
+                                                <div class="col dk-footer-form">
+                                                    <input type="email" class="form-control" placeholder="Email Address">
+                                                    <button type="submit">
+                                                        <i class="fa fa-send"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                        <!-- End form -->
+                                    </div>
+                                    <!-- End footer widget -->
+                                </div>
+                                <!-- End Col -->
+                            </div>
+                            <!-- End Row -->
                         </div>
-                        <!-- Submit Button-->
-                        <div class="d-grid"><button class="btn btn-primary rounded-pill btn-lg disabled"
-                                id="submitButton" type="submit">Registrarse</button></div>
-                    </form>
+                        <!-- End Col -->
+                    </div>
+                    <!-- End Widget Row -->
                 </div>
+                <!-- End Contact Container -->
+        
+        
+                <div class="copyright">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <span>Copyright © 2019</span>
+                            </div>
+                            <!-- End Col -->
+                            <div class="col-md-6">
+                                <div class="copyright-menu">
+                                    <ul>
+                                        <li>
+                                            <a href="#">Inicio</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Términos</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Políticas de Privacidad</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Contacto</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- End col -->
+                        </div>
+                        <!-- End Row -->
+                    </div>
+                </div>
+               
+                <!-- Back to top -->
+                <div id="back-to-top" class="back-to-top">
+                    <button class="btn btn-dark" title="Back to Top" style="display: block;">
+                        <i class="fa fa-angle-up"></i>
+                    </button>
+                </div>
+                <!-- End Back to top -->
+        </footer>
+
+<!-- Modal contact -->
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Enviar mensaje</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="mb-3">
+                    <div class="form-floating mb-3">
+                      <input class="form-control" id="name" type="text" placeholder="Enter your name..."
+                        data-sb-validations="required" />
+                      <label for="name">Nombre Completo</label>
+                      <div class="invalid-feedback" data-sb-feedback="name:required">
+                        El nombre es requerido
+                      </div>
+                    </div>
+                    <!-- Email input-->
+                    <div class="form-floating mb-3">
+                      <input class="form-control" id="email" type="email" placeholder="name@example.com"
+                        data-sb-validations="required" />
+                      <label for="email">Email </label>
+                      <div class="invalid-feedback" data-sb-feedback="email:required">
+                        El email es requerido
+                      </div>
+                      <div class="invalid-feedback" data-sb-feedback="email:email">
+                        Email no es valido.
+                      </div>
+                    </div>
+                    <!-- Phone number input-->
+                    <div class="form-floating mb-3">
+                      <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890"
+                        data-sb-validations="required" />
+                      <label for="phone">Número</label>
+                      <div class="invalid-feedback" data-sb-feedback="phone:required">
+                        El número de teléfono es requerido.
+                      </div>
+                    </div>
+          
+                    <div class="mb-3">
+                      <label for="message-text" class="col-form-label">Mensaje:</label>
+                      <textarea class="form-control" id="message-text"></textarea>
+                    </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Enviar</button>
+              </div>
             </div>
+          </div>
         </div>
-    </div>
+    
+      </div>
+    
+
+
 
 
     <!-- Feedback Modal-->
-    <div class="modal fade" id="InicioSesion" tabindex="-1" aria-labelledby="feedbackModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header bg-gradient-primary-to-secondary p-4">
-                    <h5 class="modal-title font-alt text-white" id="feedbackModalLabel">Inicia Sesión</h5>
-                    <button class="btn-close btn-close-white" type="button" data-bs-dismiss="modal"
-                        aria-label="Close"></button>
+    <div
+      class="modal fade"
+      id="feedbackModal"
+      tabindex="-1"
+      aria-labelledby="feedbackModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header bg-gradient-primary-to-secondary p-4">
+            <h5 class="modal-title font-alt text-white" id="feedbackModalLabel">
+              Registrarse
+            </h5>
+            <button
+              class="btn-close btn-close-white"
+              type="button"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body border-0 p-4">
+            <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+              <!-- Nombre input-->
+              <div class="form-floating mb-3">
+                <input
+                  class="form-control"
+                  id="name"
+                  type="text"
+                  placeholder="Enter your name..."
+                  data-sb-validations="required"
+                />
+                <label for="name">Nombre Completo</label>
+                <div class="invalid-feedback" data-sb-feedback="name:required">
+                  El nombre es requerido
                 </div>
-                <div class="modal-body border-0 p-4">
-
-                    <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                        <!-- Nombre input-->
-                        <div class="form-floating mb-3">
-                            <input class="form-control" id="name" type="text" placeholder="Enter your name..."
-                                data-sb-validations="required" />
-                            <label for="name">Usuario</label>
-                            <div class="invalid-feedback" data-sb-feedback="name:required">El usuario es requerido</div>
-                        </div>
-                        <!-- Email input-->
-                        <div class="form-floating mb-3">
-                            <input class="form-control" id="password" type="password" placeholder="*******" size="10"
-                                maxlength="10" data-sb-validations="required" />
-                            <label for="password">Contraseña</label>
-                            <div class="invalid-feedback" data-sb-feedback="password:required">La contraseña es
-                                requerida</div>
-
-                        </div>
-
-
-                        <!-- Message input-->
-
-                        <!-- Submit success message-->
-
-                        <div class="d-none" id="submitSuccessMessage">
-                            <div class="text-center mb-3">
-                                <div class="fw-bolder">¡El inicio fue exitoso!</div>
-
-
-                            </div>
-                        </div>
-                        <!-- Submit error message-->
-
-                        <div class="d-none" id="submitErrorMessage">
-                            <div class="text-center text-danger mb-3">¡Error al ingresar!</div>
-                        </div>
-                        <!-- Submit Button-->
-                        <div class="d-grid"><button class="btn btn-primary rounded-pill btn-lg disabled"
-                                id="submitButton" type="submit">Entrar</button></div>
-                    </form>
+              </div>
+              <!-- Email input-->
+              <div class="form-floating mb-3">
+                <input
+                  class="form-control"
+                  id="email"
+                  type="email"
+                  placeholder="name@example.com"
+                  data-sb-validations="required"
+                />
+                <label for="email">Email </label>
+                <div class="invalid-feedback" data-sb-feedback="email:required">
+                  El email es requerido
                 </div>
-            </div>
+                <div class="invalid-feedback" data-sb-feedback="email:email">
+                  Email no es valido.
+                </div>
+              </div>
+              <!-- Phone number input-->
+              <div class="form-floating mb-3">
+                <input
+                  class="form-control"
+                  id="phone"
+                  type="tel"
+                  placeholder="(123) 456-7890"
+                  data-sb-validations="required"
+                />
+                <label for="phone">Número</label>
+                <div class="invalid-feedback" data-sb-feedback="phone:required">
+                  El número de teléfono es requerido.
+                </div>
+              </div>
+              <!-- Message input-->
+
+              <!-- Submit success message-->
+
+              <div class="d-none" id="submitSuccessMessage">
+                <div class="text-center mb-3">
+                  <div class="fw-bolder">¡El registro fue exitoso!</div>
+                </div>
+              </div>
+              <!-- Submit error message-->
+
+              <div class="d-none" id="submitErrorMessage">
+                <div class="text-center text-danger mb-3">
+                  ¡Error al registrarse!
+                </div>
+              </div>
+              <!-- Submit Button-->
+              <div class="d-grid">
+                <button
+                  class="btn btn-primary rounded-pill btn-lg disabled"
+                  id="submitButton"
+                  type="submit"
+                >
+                  Registrarse
+                </button>
+              </div>
+            </form>
+          </div>
         </div>
+      </div>
     </div>
 
+    <!-- Feedback Modal-->
+    <div
+      class="modal fade"
+      id="InicioSesion"
+      tabindex="-1"
+      aria-labelledby="feedbackModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header bg-gradient-primary-to-secondary p-4">
+            <h5 class="modal-title font-alt text-white" id="feedbackModalLabel">
+              Inicia Sesión
+            </h5>
+            <button
+              class="btn-close btn-close-white"
+              type="button"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body border-0 p-4">
+            <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+              <!-- Nombre input-->
+              <div class="form-floating mb-3">
+                <input
+                  class="form-control"
+                  id="name"
+                  type="text"
+                  placeholder="Enter your name..."
+                  data-sb-validations="required"
+                />
+                <label for="name">Usuario</label>
+                <div class="invalid-feedback" data-sb-feedback="name:required">
+                  El usuario es requerido
+                </div>
+              </div>
+              <!-- Email input-->
+              <div class="form-floating mb-3">
+                <input
+                  class="form-control"
+                  id="password"
+                  type="password"
+                  placeholder="*******"
+                  size="10"
+                  maxlength="10"
+                  data-sb-validations="required"
+                />
+                <label for="password">Contraseña</label>
+                <div
+                  class="invalid-feedback"
+                  data-sb-feedback="password:required"
+                >
+                  La contraseña es requerida
+                </div>
+              </div>
 
+              <!-- Message input-->
+
+              <!-- Submit success message-->
+
+              <div class="d-none" id="submitSuccessMessage">
+                <div class="text-center mb-3">
+                  <div class="fw-bolder">¡El inicio fue exitoso!</div>
+                </div>
+              </div>
+              <!-- Submit error message-->
+
+              <div class="d-none" id="submitErrorMessage">
+                <div class="text-center text-danger mb-3">
+                  ¡Error al ingresar!
+                </div>
+              </div>
+              <!-- Submit Button-->
+              <div class="d-grid">
+                <button
+                  class="btn btn-primary rounded-pill btn-lg disabled"
+                  id="submitButton"
+                  type="submit"
+                >
+                  Entrar
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
@@ -283,7 +658,5 @@
     <script src="js/scripts.js"></script>
 
     <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-
-</body>
-
+  </body>
 </html>

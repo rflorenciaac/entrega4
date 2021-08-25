@@ -40,6 +40,8 @@
   .cta-content,
   .px-5 {
     text-align: center;
+    display: flex;
+    align-items: center;
   }
 
   #final {
@@ -59,6 +61,10 @@
     display: none;
   }
 
+  .footer-social-link {
+    text-align: center;
+  }
+
   #row1 {
     display: none;
   }
@@ -70,8 +76,8 @@
   }
   .copyright-menu ul {
     font-size: 0.9rem;
-    margin-right: 2rem;
-    margin-left: 2rem;
+    padding: 0;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -105,7 +111,7 @@
 
 @media (max-width: 991.98px) {
   #container3 {
-    background-image: none;
+    background-image: url(../Imagen/Ayuda/adorable-brown-and-white-basenji-dog-smiling-and-giving-high-five-isolated-on-white.jpg);
     background-color: rgb(243, 198, 142);
     padding-right: 2rem;
     padding-left: 2rem;
@@ -117,17 +123,32 @@
 
   #container3 .h2ayuda {
     font-size: 2rem;
+    font-weight: 800;
+    text-shadow: 3px 4px 7px rgba(81, 67, 21, 0.8);
+  }
+  #container3 .flexsearch--input {
+    font-size: 1rem;
   }
 
   #container4,
   #row {
     margin-top: 4rem;
+    justify-content: center;
   }
   #container4 .col-sm-6 {
     padding-right: 2rem;
     padding-left: 2rem;
     width: 350px;
     padding: 1rem;
+  }
+
+  #cardayuda {
+    font-size: 2rem;
+  }
+
+  .card-title {
+    font-weight: 700;
+    font-size: 1.5rem;
   }
 
   #footerayuda {
